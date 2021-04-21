@@ -23,7 +23,7 @@ class Character extends Entity {
     }
 
     /**
-     * Mata a un personaje
+     * Mata a un personaje 
      */
     collide() {
         this.image.src = this.myImageDead;
